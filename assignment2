@@ -1,0 +1,68 @@
+// Assignment with 11 questions
+
+// Question 1(program to print out my name)
+let x= "Kate"
+console.log(x);
+
+
+//Question 2
+let age=20;
+console.log("I am" + " " + age + " " + "years old");
+
+//Question 3
+let Firstname="Mary"
+let Lastname= "Kate"
+let Fullname = Firstname + " " + Lastname;
+console.log(Fullname)
+
+//Question 4
+let z= "Sky"
+let y=24
+console.log(`Hello my name is ${z} and i am ${y} years old`);
+
+//Question 5
+let city="Benin"
+console.log("I" + " "+ "live" + " "+ "in" + " "+ `${city}`+ " " +"city");
+
+//Question 6
+let v=59;
+if (v>50){
+    console.log("You Passed");
+}else{
+    console.log("You failed")
+}
+
+//Question 7
+let temp= 30
+if (temp > 30){
+    console.log("it's Hot!")
+}else if (temp>=20 && temp<31){
+    console.log("Nice weather")
+}else{
+    console.log("It's cold")
+}
+
+//Question 8
+const r=["apple", "Banana", "cherry"]
+console.log(r[1]);
+
+//Question 9
+const t={ 
+    Name: "John",
+    age: 25,
+    city: "New York"
+}
+console.log(t.age)
+
+// Question 10
+const task=[]
+task[0]="Exercise"
+task[1]="study"
+task[2]="Sleep"
+
+console.log(task.join(" "));
+
+//Question 11
+const date=["2025", "02", "22"]
+let k= date.join("-")
+console.log(k)

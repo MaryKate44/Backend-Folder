@@ -1,0 +1,21 @@
+/*let mycar;
+console.log(mycar)*/
+
+//program to check if a value is an even number or not
+let num = 27
+if (num % 2 == 0){
+    console.log ("number is an even number")
+}else{
+    console.log("number is not an even number")
+}
+
+//program to check if the number of characters in a word is even or odd
+
+function checkword(word){
+if (word.length % 2 == 0){
+    console.log("Even")
+}else{
+    console.log("Odd")
+}
+}
+checkword("institute")

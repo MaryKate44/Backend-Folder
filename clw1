@@ -1,0 +1,30 @@
+//Question 1
+function add(x,y){
+    sum= (x + y)/2
+    console.log(sum);
+}
+
+add(4,8)
+
+//another approach
+function num(i,j){
+    return(i + j)/2
+}
+let result=num(16,8)
+console.log(result)
+
+
+
+//Question 2
+const money=[
+          "dollar",
+          "naira",
+          {
+             "cryptocurrency": "cash",
+              "bitcoin" : "yen",
+              "Etherium" : "plum",
+    },
+         "euros",
+          "cedis",
+]
+console.log(money[2]["cryptocurrency"]); //console.log(money[2].cryptocurrency);

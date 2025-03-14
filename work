@@ -1,0 +1,24 @@
+let person={
+    "facebook_url_visibility": false,
+    "twitter_url_visibility": false,
+    "interest_topics": [
+        "Backend",
+        "Frontend",
+        "Cybersecurity",
+        "Network security"
+    ],
+    "profile":{
+        "name": "Dark_knight",
+    },
+    "email": "donpeter3334@gmail.com",
+    "username": "Daudupeter@",
+    "name" : "Daudu peter",
+    "super_power" : "coding",
+    "status": "Open to jobs",
+    "about": "",
+    "timestamp": 1723784398890534835,
+};
+ console.log(person.interest_topics[2])
+ console.log(person.profile.name)
+ console.log(person["super_power"])
+ console.log(person.facebook_url_visibility)

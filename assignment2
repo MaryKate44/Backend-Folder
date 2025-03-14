@@ -1,6 +1,23 @@
-// Assignment with 11 questions
+/*💠  ASSIGNMENT 
 
-// Question 1(program to print out my name)
+1. Declare a variable name and assign your name to it. Then print the value.
+2. Declare a variable age and assign your age to it. Print "I am X years old" using concatenation.
+» Where X will display whatever value you assigned to the variable "age"
+3. Create two string variables, firstName and lastName. Concatenate them and store them in a new variable: fullName and then print it.
+4. Use template literals (interpolation) to print: "Hello, my name is X and I am Y years old."
+» Where X and Y are variables you ve declared and initialized with any value of your choice.
+5. Declare a variable city, and print "I live in [city]." using both concatenation and interpolation respectively.
+6. Declare a variable score. And write a program such that if it's above 50, it will print "You passed!", otherwise it will print "You failed!".
+7. Declare temperature. If it's above 30, print "It's hot!", if between 20 and 30, print "Nice weather.", otherwise print "It's cold!".
+8. Create an array fruits = ["apple", "banana", "cherry"], then print the second item.
+9. Create an object person = {name: "John", age: 25, city: "New York"}, then print the age.
+10.Create an empty array tasks. And then add "Exercise", "Study", "Sleep" to it using the appropriate array method.
+11. Declare and initialize any variable of your choice using this value : ["2025", "02", "22"].
+Write a program that will convert the array above to "2025-02-22" when printed.
+» What you're expected to do is that, instead of the array being separated by commas, it should be seperated by hyphens.*/
+
+
+// Question 1
 let x= "Kate"
 console.log(x);
 
